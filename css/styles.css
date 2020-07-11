@@ -1,5 +1,4 @@
 body {
-  
 }
 
 #title {
@@ -17,30 +16,27 @@ h1 {
   line-height: 1.5;
 }
 
-h2
-{
+h2 {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3
-{
+h3 {
   font-family: "Montserrat";
   font-weight: bold;
 }
 
-p{
+p {
   font-family: "Montserrat";
   color: #8f8f8f;
 }
 
 /* Navigation Bar */
 
-.navbar{
-    padding: 0 0 4.5rem;
-
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -48,102 +44,98 @@ p{
   font-weight: bold;
 }
 
-.nav-item{
-    padding: 0 18px;
-    font-family: "Montserrat";
+.nav-item {
+  padding: 0 18px;
+  font-family: "Montserrat";
 }
 
-.nav-link
-{
-    font-size: 1.2rem;
-
+.nav-link {
+  font-size: 1.2rem;
 }
 
 /* Download Buttons */
 
-.download-button
-{
-    margin: 5% 3% 5% 0;
-    font-family: "Montserrat";
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: "Montserrat";
 }
 
 /* Title Image */
 
-.title-image
-{
-    width: 80%;
+.title-image {
+  width: 70%;
 }
 
 /* Feature Section */
 
-#features
-{
+#features {
   padding: 7% 15%;
 }
 
-.feature-box
-{
+.feature-box {
   text-align: center;
   padding: 5%;
 }
 
-
-.icon
-{
-  color:  #092532;
+.icon {
+  color: #092532;
   margin-bottom: 1rem;
 }
 
-.icon:hover
-{
+.icon:hover {
   color: #e7305b;
 }
 
-
 /* Testimonial Section */
 
-#testimonials
-{
-  
+#testimonials {
   text-align: center;
   background: #393e46;
   color: #ffffff;
 }
 
-.testimonial-image
-{
+.testimonial-image {
   width: 15%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item
-{
+.carousel-item {
   padding: 7% 15%;
 }
 
-#press
-{
+#press {
   background: #393e46;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo
-{
+.press-logo {
   width: 10%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
 
-#pricing
-{
+#pricing {
   padding: 100px;
   text-align: center;
 }
 
-.pricing-column 
-{
+.pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1090px) {
+  #title
+  {
+    text-align: center;
+  }
+}
+
+@media (min-width:1090px)
+{
+  .title-image {
+    width: 80%;
+  }
 }
