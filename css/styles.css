@@ -37,6 +37,18 @@ p {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section{
+  background: #393e46;
+  color: #ffffff;
+}
+
+white-section
+{
+
+}
+
 
 
 
@@ -69,14 +81,9 @@ p {
 
 /* Title section */
 
-#title {
-  background: #393e46;
-  color: #ffffff;
-  text-align: left;
-}
-
 #title .container-fluid{
   padding: 3% 15% 4%;
+  text-align: left;
 }
 
 /* Title Image */
@@ -101,11 +108,6 @@ p {
 }
 
 /* Testimonial Section */
-
-#testimonials {
-  background: #393e46;
-  color: #ffffff;
-}
 
 .testimonial-text
 {
@@ -148,12 +150,6 @@ p {
 }
 
 /* CTA section */
-
-#cta
-{
-  background: #393e46;
-  color: #ffffff;
-}
 
 .cta-heading
 {
